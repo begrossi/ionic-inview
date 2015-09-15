@@ -1,0 +1,32 @@
+{
+  "name": "ionic-inview",
+  "version": "1.0.0",
+  "authors": [
+    "Bruno E. Grossi <bruno@grossi.com.br>"
+  ],
+  "description": "Simple ionic/angular directive to detect if an element is inside a scroll view.",
+  "main": "ionic-inview.js",
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "angular",
+    "angularjs",
+    "ionic",
+    "scroll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/project.git"
+  }
+}
