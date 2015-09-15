@@ -1,7 +1,7 @@
 angular.module('ionicInView', [])
-.directive('inView', ['$rootScope', '$parse', function($rootScope, $parse) {
+.directive('inView', ['$rootScope', '$parse','$timeout', function($rootScope, $parse, $timeout) {
   function callFn($scope, fn, status) {
-      fn && $scope.$apply(function() {
+      fn && $timeout(function() {
           fn($scope, {$status: status});
       });
   }    
